@@ -1,0 +1,80 @@
+body {
+  background-color: #eae8dc; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.container {
+  margin: 0 1rem; }
+
+.header {
+  width: 100%;
+  text-align: center; }
+  .header__headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0; }
+  .header h1 {
+    text-transform: uppercase;
+    background-color: #001019;
+    color: #eae8dc;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 800; }
+  .header__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    margin-bottom: 1rem; }
+
+h3 {
+  padding-top: 1rem;
+  text-transform: uppercase; }
+
+h3:after {
+  content: "";
+  display: block;
+  width: 4.4rem;
+  padding-top: 0.33rem;
+  border-bottom: 3px solid #fcbf49; }
+
+.card {
+  width: 100%;
+  font-size: 0; }
+  .card__width {
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: 0.66rem 0; }
+  .card__h4 {
+    background-color: #fcbf49;
+    display: inline-block;
+    padding: 0.33rem 1rem;
+    border-radius: 1px;
+    margin-bottom: 0.5rem; }
+  .card__list {
+    width: 100%;
+    flex-wrap: wrap; }
+  .card__list-item {
+    margin-bottom: 0.5rem; }
+  .card__checkbox-container {
+    display: flex;
+    background-color: #d2d1c8;
+    padding: 0.5rem; }
+  .card h6 {
+    padding-left: 1rem; }
+  .card__info {
+    padding: 0.33rem 0;
+    display: none; }
+
+.button {
+  padding: 0.33rem 1.33rem;
+  border-radius: 1px;
+  color: #FFF;
+  background-color: #e1575b;
+  margin-top: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

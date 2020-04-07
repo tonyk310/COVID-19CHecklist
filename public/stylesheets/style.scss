@@ -15,6 +15,11 @@ img {
 
 .container {
 	margin: 0 1rem;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {
+		margin: 0 6.25rem;
+	} 
 }
 
 .header {
@@ -29,7 +34,7 @@ img {
 		justify-content: center;
 	  	align-items: center;
 
-	  	margin: 2rem 0;
+	  	margin: 2rem 0 1.5rem 0;
   	}
 
 	& h1 {
@@ -49,6 +54,20 @@ img {
 	  	margin-bottom: 1rem;
 
 	}
+}
+
+.row {
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {
+		display: flex;
+		justify-content: space-between;
+
+			&__column-width {
+				width: 50%;
+			}
+	} 
+
+
 }
 
 h3 {
@@ -71,9 +90,11 @@ h3:after {
 .card {
 	width: 100%;
 	font-size: 0;
-	// white-space: normal;
-	// display: flex; 
-	// justify-content: space-between;
+	padding-right: 2rem;
+
+	&:last-child {
+		padding-right: none;
+	}
 
 	&__width {
 		// display: inline-block;
@@ -83,6 +104,7 @@ h3:after {
 		padding: 1rem;
 		border: 1px solid gray;
 		margin: 0.66rem 0;
+		    padding-right: 2rem;
 	}
 
 	&__h4 {
@@ -139,7 +161,11 @@ h3:after {
 		// this is hiding the info container
 		display: none;
 	}
+
+
 }
+
+
 
 // .button-container {
 // 	display: flex;

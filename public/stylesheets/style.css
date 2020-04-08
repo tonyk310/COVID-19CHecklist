@@ -105,4 +105,7 @@ h3:after {
   background-color: #e1575b;
   margin-top: 1rem; }
 
+.toggle {
+  display: block; }
+
 /*# sourceMappingURL=style.css.map */

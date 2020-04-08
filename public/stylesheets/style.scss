@@ -18,7 +18,9 @@ img {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 	@media only screen and (min-width: 600px) {
-		margin: 0 6.25rem;
+		// margin: 0 6.25rem;
+		max-width: 1100px;
+		margin: 0 auto;
 	} 
 }
 
@@ -61,10 +63,28 @@ img {
 	@media only screen and (min-width: 600px) {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 
-			&__column-width {
+		margin-left: 1rem;
+		margin-right: 1rem;
+
+			&__column-width-2 {
 				width: 50%;
+				padding-right: 1rem;
 			}
+
+			&__column-width-2:nth-child(even) {
+				padding-right: 0rem;
+			};
+
+			&__column-width-3 {
+				width: 33.33%;
+				padding-right: 1rem;
+			}
+
+			&__column-width-3:last-child {
+				padding-right: 0rem;
+			};			
 	} 
 
 
@@ -73,6 +93,7 @@ img {
 h3 {
 	padding-top: 1rem;
 	text-transform: uppercase;	
+	font-weight: 600;
 }
 
 h3:after {
@@ -90,11 +111,12 @@ h3:after {
 .card {
 	width: 100%;
 	font-size: 0;
-	padding-right: 2rem;
 
-	&:last-child {
-		padding-right: none;
-	}
+
+
+
+
+
 
 	&__width {
 		// display: inline-block;
@@ -104,7 +126,9 @@ h3:after {
 		padding: 1rem;
 		border: 1px solid gray;
 		margin: 0.66rem 0;
-		    padding-right: 2rem;
+		    // padding-right: 2rem;
+
+
 	}
 
 	&__h4 {
@@ -117,6 +141,7 @@ h3:after {
 		border-radius: 1px;
 		margin-bottom: 0.5rem;
 		// font-size: 0.9rem;
+		text-transform: capitalize;
 	}
 
 	&__list {
@@ -149,6 +174,7 @@ h3:after {
 
 	& h6 {
 		padding-left: 1rem;
+		text-transform: capitalize;
 	}
 
 

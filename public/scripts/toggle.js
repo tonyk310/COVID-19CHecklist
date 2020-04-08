@@ -3,6 +3,8 @@
 function toggle() {
 	
 	var clickToDisplayArray = document.getElementsByClassName('click-to-toggle-display');
+	// console.log(clickToDisplayArray);
+	
 
 	for (var i = 0; i < clickToDisplayArray.length; i++) {
 		clickToDisplayArray[i].addEventListener('click', function(e) {

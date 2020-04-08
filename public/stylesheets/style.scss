@@ -168,8 +168,10 @@ h3:after {
 		display: flex;
 		background-color: #d2d1c8;
 		padding: 0.5rem;
+	}
 
-
+	&__info-container {
+		display: none;
 	}
 
 	& h6 {
@@ -185,7 +187,9 @@ h3:after {
 
 		// this is what you are looking for
 		// this is hiding the info container
-		display: none;
+
+			
+		
 	}
 
 
@@ -204,6 +208,8 @@ h3:after {
     color: #FFF;
     background-color: #e1575b;
     margin-top: 1rem;
+
+    display: none;
 }
 
 

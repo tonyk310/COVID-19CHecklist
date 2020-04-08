@@ -91,19 +91,21 @@ h3:after {
     display: flex;
     background-color: #d2d1c8;
     padding: 0.5rem; }
+  .card__info-container {
+    display: none; }
   .card h6 {
     padding-left: 1rem;
     text-transform: capitalize; }
   .card__info {
-    padding: 0.33rem 0;
-    display: none; }
+    padding: 0.33rem 0; }
 
 .button {
   padding: 0.33rem 1.33rem;
   border-radius: 1px;
   color: #FFF;
   background-color: #e1575b;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  display: none; }
 
 .toggle {
   display: block; }

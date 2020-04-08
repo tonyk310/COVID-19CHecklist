@@ -1,0 +1,40 @@
+.card {
+  width: 100%;
+  font-size: 0; }
+  .card__width {
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: 0.66rem 0; }
+  .card__h4 {
+    background-color: #fcbf49;
+    display: inline-block;
+    padding: 0.33rem 1rem;
+    border-radius: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize; }
+  .card__list {
+    width: 100%;
+    flex-wrap: wrap; }
+  .card__list-item {
+    margin-bottom: 0.5rem; }
+  .card__checkbox-container {
+    display: flex;
+    background-color: #d2d1c8;
+    padding: 0.5rem; }
+  .card h6 {
+    padding-left: 1rem;
+    text-transform: capitalize; }
+  .card__info-container {
+    display: none; }
+  .card__info {
+    padding: 0.33rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .card__image-container {
+    width: 25%; }
+  .card__info-content-container {
+    margin-left: 1rem; }
+
+/*# sourceMappingURL=_card.css.map */

@@ -63,11 +63,17 @@
 	}
 
 	&__image-container {
-		width: 33%;
+		// width: 33%;
 		width: 6rem;
+		
+	}
+
+	& img {
+		// width: 8rem;
 	}
 
 	&__info-content-container {
 		padding-left: 1rem;
+		width: 66%;
 	}
 }

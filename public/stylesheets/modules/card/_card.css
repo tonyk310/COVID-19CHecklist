@@ -34,9 +34,9 @@
     justify-content: flex-start;
     align-items: center; }
   .card__image-container {
-    width: 33%;
     width: 6rem; }
   .card__info-content-container {
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    width: 66%; }
 
 /*# sourceMappingURL=_card.css.map */

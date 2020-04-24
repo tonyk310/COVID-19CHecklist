@@ -22,7 +22,7 @@
     display: flex;
     background-color: #d2d1c8;
     padding: 0.5rem; }
-  .card h6 {
+  .card h5 {
     padding-left: 1rem;
     text-transform: capitalize; }
   .card__info-container {

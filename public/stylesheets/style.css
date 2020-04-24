@@ -53,7 +53,7 @@ img {
       .row__column-width-3 {
         width: 33.33%;
         padding-right: 1rem; }
-      .row__column-width-3:last-child {
+      .row__column-width-3:nth-child(3n) {
         padding-right: 0rem; } }
 
 h3 {

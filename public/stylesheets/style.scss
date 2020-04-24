@@ -82,7 +82,7 @@ img {
 				padding-right: 1rem;
 			}
 
-			&__column-width-3:last-child {
+			&__column-width-3:nth-child(3n) {
 				padding-right: 0rem;
 			};			
 	} 
